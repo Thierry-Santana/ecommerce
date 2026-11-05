@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa {
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #DCC0F7;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: #DCC0F7;
+}
+
+container{
+    .container {
+        height: 100vh; /* ocupa a tela toda */
+        display: flex;
+        justify-content: center; /* centraliza horizontalmente */
+        align-items: center;     /* centraliza verticalmente */
+      }
+}
+
+form{
+    justify-content: center;
+}

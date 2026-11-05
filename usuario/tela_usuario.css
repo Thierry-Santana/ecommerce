@@ -1,0 +1,68 @@
+:root {
+    --cor-conta: #8a2be2;
+    --cor-destaque: #dcc0f7;
+    --painel-conta: #212529;
+}
+
+body {
+    background: #111418;
+}
+
+.cabecalho-conta {
+    background: linear-gradient(120deg, #29183c, #171b20 65%);
+    border-bottom: 1px solid #512080;
+}
+
+.avatar-conta {
+    width: 72px;
+    height: 72px;
+    border: 2px solid var(--cor-destaque);
+    object-fit: cover;
+}
+
+.cartao-conta {
+    background: var(--painel-conta);
+    border: 1px solid #343a40;
+    transition: transform .2s, border-color .2s, box-shadow .2s;
+}
+
+.cartao-conta:hover {
+    transform: translateY(-3px);
+    border-color: var(--cor-conta);
+}
+
+.cartao-conta .icone {
+    color: var(--cor-destaque);
+    font-size: 1.6rem;
+}
+
+.quantidade-conta {
+    color: var(--cor-destaque);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.cabecalho-conta h1,
+.cartao-conta h2,
+.cartao-conta h3 {
+    color: var(--cor-destaque);
+}
+
+.cabecalho-conta .btn-outline-light:hover {
+    background: var(--cor-conta);
+    border-color: var(--cor-conta);
+}
+
+.cartao-perfil:hover {
+    transform: none;
+    border-color: #343a40;
+}
+
+.link-conta {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link-conta:hover {
+    color: inherit;
+}

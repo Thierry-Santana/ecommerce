@@ -1,0 +1,34 @@
+.recuperacao-page {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 70vh;
+    padding: 2rem 1rem;
+}
+
+.recuperacao-card {
+    box-sizing: border-box;
+    width: min(390px, 100%);
+}
+
+.recuperacao-card p {
+    line-height: 1.5;
+}
+
+.recuperacao-card a {
+    text-decoration: none;
+}
+
+.recuperacao-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .recuperacao-page {
+        min-height: 65vh;
+        padding: 1.5rem 1rem;
+    }
+
+    .recuperacao-card {
+        padding: 1.25rem;
+    }
+}

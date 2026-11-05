@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background: #212529;
+}
+
+.caixa-perfil {
+    width: min(100%, 620px);
+    border: 2px solid #dcc0f7;
+    border-radius: 10px;
+    background: #212529;
+}
+
+.cabecalho-perfil h1 {
+    color: #dcc0f7;
+}
+
+.cabecalho-perfil {
+    text-align: center;
+}
+
+.caixa-perfil .form-control {
+    border-color: #6c757d;
+}
+
+.caixa-perfil .form-control:focus {
+    border-color: #8a2be2;
+    box-shadow: 0 0 0 .2rem rgba(138, 43, 226, .2);
+}
+
+.caixa-perfil input[readonly] {
+    background: #343a40;
+    color: #adb5bd;
+    cursor: not-allowed;
+}
+
+.previa-foto {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    border: 2px solid #dcc0f7;
+    margin: 0 auto;
+}
+
+.previa-foto {
+    display: block;
+    object-fit: cover;
+}
+
+.caixa-perfil .form-text {
+    color: #adb5bd;
+}
+
+.acoes-perfil .btn-primary {
+    background: #8a2be2;
+    border-color: #8a2be2;
+}
+
+.acoes-perfil .btn-primary:hover,
+.acoes-perfil .btn-primary:focus {
+    background: #7020b8;
+    border-color: #7020b8;
+}
+
+@media (max-width: 576px) {
+    .acoes-perfil {
+        flex-direction: column;
+    }
+
+    .acoes-perfil .btn {
+        width: 100%;
+    }
+}

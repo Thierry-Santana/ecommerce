@@ -1,0 +1,25 @@
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 3rem; /* Aproximadamente a altura de 2 linhas */
+}
+
+.card {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+h2 {
+    color: #DCC0F7;
+}
+
+.sidebar {
+    
+}
